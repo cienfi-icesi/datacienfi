@@ -27,11 +27,11 @@ install.packages("devtools")
 # Instala datacienfi desde tu directorio
 devtools::install("ruta/a/datacienfi")
 
-** ##🔧 Ejemplo de uso**
+---
 
-r
-Copiar
-Editar
+## 🔧 Ejemplo de uso
+
+```r
 library(datacienfi)
 
 # Descargar una base del IPM municipal desde el DANE
@@ -42,11 +42,13 @@ ipm_limpio <- transformar_ipm(ipm_raw)
 
 # Visualizar los primeros registros
 head(ipm_limpio)
+```
 
-**📁 Estructura del paquete**
-bash
-Copiar
-Editar
+---
+
+## 📁 Estructura del paquete
+
+```bash
 R/                  # Funciones del paquete
 man/                # Documentación de funciones
 data/               # Diccionarios auxiliares (opcional)
@@ -54,14 +56,38 @@ tests/              # Pruebas unitarias
 DESCRIPTION         # Información del paquete
 NAMESPACE           # Control de funciones exportadas
 README.md           # Este archivo
+```
 
-**📦 Dependencias**
-dplyr, readr, httr, jsonlite, stringr, purrr
+---
 
-Requiere R ≥ 4.1.0
+## 📦 Dependencias
 
-**📄 Licencia**
+- `dplyr`
+- `readr`
+- `httr`
+- `jsonlite`
+- `stringr`
+- `purrr`
+
+> Requiere R ≥ 4.1.0
+
+---
+
+## 📄 Licencia
+
 MIT License – Uso libre con atribución.
 
+---
 
+## 👨‍💻 Autor
 
+**Eduard Fernando Martínez-Gonzalez, PhD
+César Arvey Granado-Mandinga
+Miguel Angel Torres-Montoya
+Alejandro Cano-Noguera
+Juan Camilo Escobar-Arteaga
+Karen Sofía Gil-Marin
+Sebastian Dow-Valenzuela**  
+Centro de Investigación en Economía y Finanzas (CIENFI)  
+Universidad Icesi – Colombia  
+Contacto: cienfi@icesi.edu.co
