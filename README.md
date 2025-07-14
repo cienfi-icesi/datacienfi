@@ -81,13 +81,13 @@ MIT License – Uso libre con atribución.
 
 ## 👨‍💻 Autor
 
-**Eduard Fernando Martínez-Gonzalez, PhD
-César Arvey Granado-Mandinga
-Miguel Angel Torres-Montoya
-Alejandro Cano-Noguera
-Juan Camilo Escobar-Arteaga
-Karen Sofía Gil-Marin
-Sebastian Dow-Valenzuela**  
+**Eduard Fernando Martínez-Gonzalez, PhD;**
+**César Arvey Granado-Mandinga;**
+**Miguel Angel Torres-Montoya;**
+**Alejandro Cano-Noguera;**
+**Juan Camilo Escobar-Arteaga;**
+**Karen Sofía Gil-Marin;**
+**Sebastian Dow-Valenzuela**  
 Centro de Investigación en Economía y Finanzas (CIENFI)  
 Universidad Icesi – Colombia  
 Contacto: cienfi@icesi.edu.co
