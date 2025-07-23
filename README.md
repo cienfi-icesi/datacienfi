@@ -1,6 +1,6 @@
 # 📦 datacienfi
 
-`datacienfi` es un paquete en desarrollo para R que permite **descargar, transformar y preparar bases de datos públicas del DANE y otras fuentes oficiales** de forma automatizada, estandarizada y reproducible.
+`datacienfi` es un paquete en desarrollo para R que permite **descargar, transformar y preparar bases de datos públicas del Datos abiertos y otras fuentes oficiales** de forma automatizada, estandarizada y reproducible.
 
 Este paquete ha sido creado por el **Centro de Investigación en Economía y Finanzas (CIENFI)** de la Universidad Icesi para facilitar el uso sistemático de datos estadísticos en proyectos y ejercicios de análisis económico, social y académico, eliminando procesos manuales y reduciendo errores de procesamiento.
 
