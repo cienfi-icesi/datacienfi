@@ -1,0 +1,26 @@
+Package: datacienfi
+Type: Package
+Title: Paquete de Bases de Datos para Business Analytics
+Version: 0.1.0 
+Authors@R: person ("Cienfi", "Centro de Investigación en Economía y Finanzas - Universidad Icesi", email = "cienfi@icesi.edu.co", role = c("aut", "cre"))
+Description: 
+  Proporciona bases de datos locales y acceso a datos abiertos de Colombia. Incluye funciones para transformación de datos. 
+License: GPL-3
+Encoding: UTF-8
+LazyData: true 
+Imports: 
+  httr,
+  jsonlite, 
+  dplyr, 
+  tidyr, 
+  readr, 
+  stringr, 
+  lubridate, 
+  sf, 
+  janitor, 
+  skimr
+Suggests: 
+  testthat (>= 3.0.0)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)

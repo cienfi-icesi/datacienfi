@@ -1,0 +1,2 @@
+#' @export
+hola <- function() 'mundo'
