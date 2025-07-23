@@ -1,7 +1,6 @@
 #' @title Descargar hasta 10.000 observaciones de inclusión financiera
 #' @description Descarga datos desde datos.gov.co y los filtra por tipo de producto financiero. Estándariza los nombres de columna.
 #' @return Tibble con observaciones de CUENTAS DE AHORRO y CREDITOS DE CONSUMO
-#' @export
 download_financiera <- function(url = "https://www.datos.gov.co/resource/ptgf-ywrb.csv?$limit=50000") {
   
   # Evitar notación científica

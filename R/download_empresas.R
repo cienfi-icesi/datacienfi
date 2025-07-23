@@ -1,7 +1,6 @@
 #' @title Descargar observaciones de la base de Empresas mas Grandes del País
 #' @description Descarga datos desde datos.gov.co. Estándariza los nombres de columna
 #' @return Tibble con observaciones por empresa
-#' @export
 download_empresa <- function(url = "https://www.datos.gov.co/resource/6cat-2gcs.csv?$limit=10000") {
   
   #Evitar notación cientifica 

@@ -2,7 +2,6 @@
 #' @description
 #' Descarga datos desde datos.gov.co. Estandariza los nombes de columna
 #' @return Tibble con datos por periodo 
-#' @export
 download_laboral <- function(url = "https://datosabiertos.bogota.gov.co/dataset/199722a1-e999-422e-8214-cac75264efec/resource/51ae1760-fc6d-47d1-9c7c-669b0f3bc517/download/conjunto-mercado-laboral-bogota-03072025.xlsx"){
   
   #Evitar notación cientifica 

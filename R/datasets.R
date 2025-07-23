@@ -17,35 +17,6 @@ get_finanzas <- function() {
 }
 
 
-
-#' @title Obtener datos de Saber 11
-#' @description
-#' Carga el dataset Saber 11 incluido en el paquete
-#' @param aplicar_transform Aplicar transformación predefinida? (TRUE por defecto)
-#' @return Data frame con los datos 
-#' @export
-get_saber11 <- function(aplicar_transform = TRUE) {
-  data("saber_11", package = "datacienfi")
-  
-  # Información de fuente y estructura
-  n_obs <- nrow(saber_11)
-  n_vars <- ncol(saber_11)
-  message("📦 Fuente: ICFES - Examen Saber 11 (datos abiertos)\n",
-          "🧾 Observaciones: ", format(n_obs, big.mark = ","), 
-          " | Variables: ", n_vars, "\n", 
-          "📚 Por favor cite el paquete así:\n",
-          "Martinez-Gonzalez, E., Granado-Mandinga, C., Torres-Montoya, M., Cano-Noguera, A., ",
-          "Escobar-Arteaga, J., Gil-Marin, K., & Dow-Valenzuela, S. (2024). *datacienfi: ",
-          "Paquete de bases de datos públicas para análisis económico y financiero*. CIENFI, Universidad Icesi.")
-  
-  if(aplicar_transform) {
-    transform_saber11(saber_11, "saber11")
-  } else {
-    return(saber_11)
-  }
-}
-
-
 #' @title Obtener datos de notas académicas
 #' @description
 #' Llama a la función de descarga y agrega metadatos

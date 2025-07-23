@@ -1,7 +1,6 @@
 #' @title Descargar observaciones de la base de Turismo Receptivo en el Valle del Cauca
 #' @description Descarga datos desde datos.gov.co. Estandariza los nombres de columna
 #' @return Tibble con observaciones por individuo
-#' @export 
 download_turismo <- function(url = "https://www.datos.gov.co/resource/xv5t-qgec.csv?$limit=2000"){
   
   #Evitar notación cientifica 

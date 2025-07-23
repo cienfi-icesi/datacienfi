@@ -2,7 +2,6 @@
 #' @description
 #' Descarga datos desde datos.gov.co. Estandariza los nombres de columna 
 #' @return Tibble con observaciones por individuo
-#' @export
 download_habitantes <- function(url = "https://www.datos.gov.co/resource/jmky-uei2.csv") {
   
   #Evitar notación cientifica 

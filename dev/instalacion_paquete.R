@@ -3,7 +3,7 @@ rm(list = ls())
 gc()
 
 # Establecer el directorio raíz del paquete
-setwd("~/Desktop/datacienfi")  # <-- Ajusta si tu ruta es diferente
+setwd("~/Desktop/CIENFI/datacienfi/")  # <-- Ajusta si tu ruta es diferente
 
 # Cargar paquetes necesarios
 library(devtools)

@@ -2,7 +2,6 @@
 #' @description
 #' Descarga datos desde datos.gov.co
 #' @return Tibble con observaciones por individuo 
-#' @export
 download_universidades <- function(url = "https://www.datos.gov.co/resource/u37r-hjmu.csv?periodo=20222&$limit=50000") {
   
   #Evitar notación cientifica 
