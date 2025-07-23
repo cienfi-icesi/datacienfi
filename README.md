@@ -18,30 +18,11 @@ Brindar herramientas que:
 
 ## 🚀 Instalación
 
-Para instalar la versión en desarrollo desde una carpeta local:
-
-```r
-# Instala devtools si aún no lo tienes
-install.packages("devtools")
-
-# Instala datacienfi desde tu directorio
-devtools::install("ruta/a/datacienfi")
-
----
-
-## 🔧 Ejemplo de uso
-
 ```r
 library(datacienfi)
 
-# Descargar una base del IPM municipal desde el DANE
-ipm_raw <- descargar_dane("ipm_municipal")
-
-# Aplicar transformación estandarizada
-ipm_limpio <- transformar_ipm(ipm_raw)
-
-# Visualizar los primeros registros
-head(ipm_limpio)
+# Descargar una base de los resultados de las pruebas Saber 11 desde el DANE
+notas_saber <- datacienfi::get_notas()
 ```
 
 ---
@@ -81,7 +62,7 @@ MIT License – Uso libre con atribución.
 
 ## 👨‍💻 Autor
 
-**Eduard Fernando Martínez-Gonzalez, PhD;**
+**Eduard Fernando Martínez-Gonzalez;**
 **César Arvey Granado-Mandinga;**
 **Miguel Angel Torres-Montoya;**
 **Alejandro Cano-Noguera;**
