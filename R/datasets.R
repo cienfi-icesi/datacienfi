@@ -162,8 +162,9 @@ get_vendedores <- function(){
 #' @return Data frame con los datos 
 #' @export
 indicadores_EEUU <- function() {
-  data("EEUU_final", package = "datacienfi", envir = environment())
-  return
+  file <- system.file("extdata", "EEUU_final.Rda", package = "datacienfi")
+  e <- new.env()
+  load(file = file, envir = e)
   # Información de fuente y estructura
   message("📦 Fuente: Yahoo Finance: https://finance.yahoo.com/\n",
           "📚 Por favor cite el paquete así:\n",
@@ -171,7 +172,7 @@ indicadores_EEUU <- function() {
           "Escobar-Arteaga, J., Gil-Marin, K., & Dow-Valenzuela, S. (2024). *datacienfi: ",
           "Paquete de bases de datos públicas para análisis económico y financiero*. CIENFI, Universidad Icesi.")
   
-    return(EEUU_final)
+    return(e$EEUU_final)
 }
 
 
@@ -181,8 +182,9 @@ indicadores_EEUU <- function() {
 #' @return Data frame con los datos 
 #' @export
 indicadores_Asia <- function() {
-  data("Asia_final", package = "datacienfi", envir = environment())
-  return
+  file <- system.file("extdata", "Asia_final.Rda", package = "datacienfi")
+  e <- new.env()
+  load(file = file, envir = e)
   # Información de fuente y estructura
   message("📦 Fuente: Yahoo Finance: https://finance.yahoo.com/\n",
           "📚 Por favor cite el paquete así:\n",
@@ -190,7 +192,7 @@ indicadores_Asia <- function() {
           "Escobar-Arteaga, J., Gil-Marin, K., & Dow-Valenzuela, S. (2024). *datacienfi: ",
           "Paquete de bases de datos públicas para análisis económico y financiero*. CIENFI, Universidad Icesi.")
   
-  return(Asia_final)
+  return(e$Asia_final)
 }
 
 
@@ -200,8 +202,9 @@ indicadores_Asia <- function() {
 #' @return Data frame con los datos 
 #' @export
 indicadores_Europa <- function() {
-  data("Europa_final", package = "datacienfi", envir = environment())
-  return
+  file <- system.file("extdata", "Europa_final.Rda", package = "datacienfi")
+  e <- new.env()
+  load(file = file, envir = e)
   # Información de fuente y estructura
   message("📦 Fuente: Yahoo Finance: https://finance.yahoo.com/\n",
           "📚 Por favor cite el paquete así:\n",
@@ -209,7 +212,7 @@ indicadores_Europa <- function() {
           "Escobar-Arteaga, J., Gil-Marin, K., & Dow-Valenzuela, S. (2024). *datacienfi: ",
           "Paquete de bases de datos públicas para análisis económico y financiero*. CIENFI, Universidad Icesi.")
   
-  return(Europa_final)
+  return(e$Europa_final)
 }
 
 
@@ -219,8 +222,9 @@ indicadores_Europa <- function() {
 #' @return Data frame con los datos 
 #' @export
 indicadores_Latinoamerica <- function() {
-  data("Latinoamerica_final", package = "datacienfi", envir = environment())
-  return
+  file <- system.file("extdata", "Latinoamerica_final.Rda", package = "datacienfi")
+  e <- new.env()
+  load(file = file, envir = e)
   # Información de fuente y estructura
   message("📦 Fuente: Yahoo Finance: https://finance.yahoo.com/\n",
           "📚 Por favor cite el paquete así:\n",
@@ -228,5 +232,5 @@ indicadores_Latinoamerica <- function() {
           "Escobar-Arteaga, J., Gil-Marin, K., & Dow-Valenzuela, S. (2024). *datacienfi: ",
           "Paquete de bases de datos públicas para análisis económico y financiero*. CIENFI, Universidad Icesi.")
   
-  return(Latinoamerica_final)
+  return(e$Latinoamerica_final)
 }
