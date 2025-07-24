@@ -32,3 +32,4 @@ indicadores_EEUU <-indicadores_EEUU()
 indicadores_Asia <- indicadores_Asia()
 indicadores_Europa <- indicadores_Europa()
 indicadores_Latinoamerica <- indicadores_Latinoamerica()
+
