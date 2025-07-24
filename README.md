@@ -19,6 +19,12 @@ Brindar herramientas que:
 ## 🚀 Instalación
 
 ```r
+#Instalar devtools (si aún no lo tienes)
+install.packages("devtools")
+
+#Usar devtools::install_github()
+devtools::install_github("cienfi-icesi/datacienfi")
+
 library(datacienfi)
 
 # Descargar una base de los resultados de las pruebas Saber 11 desde el DANE
