@@ -6,12 +6,9 @@
 \usage{
 get_habitantes()
 }
-\arguments{
-\item{aplicar_transform}{Aplicar transformación predefinida? (TRUE por defecto)}
-}
 \value{
 Data frame con los datos por individuo
 }
 \description{
-Llama a la función de descarga y agrega metadatos
+Llama a la funcion de descarga y agrega metadatos
 }

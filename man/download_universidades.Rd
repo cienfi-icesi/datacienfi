@@ -8,6 +8,9 @@ download_universidades(
   url = "https://www.datos.gov.co/resource/u37r-hjmu.csv?periodo=20222&$limit=50000"
 )
 }
+\arguments{
+\item{url}{URL del archivo CSV o recurso que se desea descargar}
+}
 \value{
 Tibble con observaciones por individuo
 }

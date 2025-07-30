@@ -8,6 +8,9 @@ download_financiera(
   url = "https://www.datos.gov.co/resource/ptgf-ywrb.csv?$limit=50000"
 )
 }
+\arguments{
+\item{url}{URL del archivo CSV o recurso que se desea descargar}
+}
 \value{
 Tibble con observaciones de CUENTAS DE AHORRO y CREDITOS DE CONSUMO
 }

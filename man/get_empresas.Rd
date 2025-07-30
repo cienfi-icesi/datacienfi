@@ -2,16 +2,13 @@
 % Please edit documentation in R/datasets.R
 \name{get_empresas}
 \alias{get_empresas}
-\title{Obtener datos de 1.000 de las Empresas mas Grandes del Pais al año 2023}
+\title{Obtener datos de 1.000 de las Empresas mas Grandes del Pais al 2023}
 \usage{
 get_empresas()
-}
-\arguments{
-\item{aplicar_transform}{Aplicar transformación predefinida? (TRUE por defecto)}
 }
 \value{
 Data frame con los datos por empresa
 }
 \description{
-Llama a la función de descarga y agrega metadatos
+Llama a la funcion de descarga y agrega metadatos
 }

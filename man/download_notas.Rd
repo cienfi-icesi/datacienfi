@@ -8,6 +8,9 @@ download_notas(
   url = "https://www.datos.gov.co/resource/kgxf-xxbe.csv?periodo=20224&$limit=50000"
 )
 }
+\arguments{
+\item{url}{URL del archivo CSV o recurso que se desea descargar}
+}
 \value{
 Tibble con observaciones agregadas por institución educativa
 }

@@ -7,8 +7,8 @@
 get_finanzas()
 }
 \value{
-Tibble con datos listos para análisis
+Tibble con datos listos para analisis
 }
 \description{
-Llama a la función de descarga y agrega metadatos
+Llama a la funcion de descarga y agrega metadatos
 }

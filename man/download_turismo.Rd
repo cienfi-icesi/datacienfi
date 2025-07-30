@@ -8,6 +8,9 @@ download_turismo(
   url = "https://www.datos.gov.co/resource/xv5t-qgec.csv?$limit=2000"
 )
 }
+\arguments{
+\item{url}{URL del archivo CSV o recurso que se desea descargar}
+}
 \value{
 Tibble con observaciones por individuo
 }

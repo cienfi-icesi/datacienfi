@@ -1,2 +1,0 @@
-
-hola <- function() 'mundo'

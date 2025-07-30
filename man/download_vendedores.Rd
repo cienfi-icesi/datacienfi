@@ -8,6 +8,9 @@ download_vendedores(
   url = "https://www.datos.gov.co/resource/y8mp-h84j.csv?$limit=10000"
 )
 }
+\arguments{
+\item{url}{URL del archivo CSV o recurso que se desea descargar}
+}
 \value{
 Tibble con observaciones por vendedor registrado
 }

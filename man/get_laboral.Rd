@@ -2,16 +2,13 @@
 % Please edit documentation in R/datasets.R
 \name{get_laboral}
 \alias{get_laboral}
-\title{Obtener datos de Mercado laboral en Bogotá}
+\title{Obtener datos de Mercado laboral en Bogota}
 \usage{
 get_laboral()
-}
-\arguments{
-\item{aplicar_transform}{Aplicar transformación predefinida? (TRUE por defecto)}
 }
 \value{
 Data frame con los datos por periodo
 }
 \description{
-Llama a la función de descarga y agrega metadatos
+Llama a la funcion de descarga y agrega metadatos
 }

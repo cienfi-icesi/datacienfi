@@ -2,16 +2,13 @@
 % Please edit documentation in R/datasets.R
 \name{get_notas}
 \alias{get_notas}
-\title{Obtener datos de notas académicas}
+\title{Obtener datos de notas academicas}
 \usage{
 get_notas()
-}
-\arguments{
-\item{aplicar_transform}{Aplicar transformación predefinida? (TRUE por defecto)}
 }
 \value{
 Data frame con los datos
 }
 \description{
-Llama a la función de descarga y agrega metadatos
+Llama a la funcion de descarga y agrega metadatos
 }

@@ -8,6 +8,9 @@ download_empresa(
   url = "https://www.datos.gov.co/resource/6cat-2gcs.csv?$limit=10000"
 )
 }
+\arguments{
+\item{url}{URL del archivo CSV o recurso que se desea descargar}
+}
 \value{
 Tibble con observaciones por empresa
 }

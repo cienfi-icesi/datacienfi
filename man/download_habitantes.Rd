@@ -6,6 +6,9 @@
 \usage{
 download_habitantes(url = "https://www.datos.gov.co/resource/jmky-uei2.csv")
 }
+\arguments{
+\item{url}{URL del archivo CSV o recurso que se desea descargar}
+}
 \value{
 Tibble con observaciones por individuo
 }
