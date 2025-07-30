@@ -2,6 +2,9 @@
 #' @description Descarga datos desde datos.gov.co, agrupa por institución educativa, calcula promedios por módulo y cuenta estudiantes.
 #' @param url URL del archivo CSV o recurso que se desea descargar 
 #' @return Tibble con observaciones agregadas por institución educativa
+
+'%>%' <- dplyr::"%>%"
+
 download_notas <- function(url = "https://www.datos.gov.co/resource/kgxf-xxbe.csv?periodo=20224&$limit=50000") {
   
   # Evitar notación científica
