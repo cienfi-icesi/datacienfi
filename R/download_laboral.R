@@ -17,10 +17,7 @@ download_laboral <- function(url = "https://datosabiertos.bogota.gov.co/dataset/
   
   #Paso 3: Transformar columna trimestre a formato numerico 
   # Asegurar que trimestre es numerico entero
-  datos <- dplyr::mutate(
-    datos, 
-    trimestre = as.integer(trimestre)
-  )
+  datos <- dplyr::mutate(datos, trimestre = lubridate::quarter(trimestre))
   
   #Paso 4: Eliminar decimales en columnas que no deberían tenerlos 
   datos <- dplyr::mutate(
