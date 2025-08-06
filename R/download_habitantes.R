@@ -1,8 +1,9 @@
-#' @title Descarga observaciones de la base de Habitantes en situación de calle y en la calle
+#' 
 #' @description
 #' Descarga datos desde datos.gov.co. Estandariza los nombres de columna 
 #' @param url URL del archivo CSV o recurso que se desea descargar 
 #' @return Tibble con observaciones por individuo
+#' @keywords internal
 download_habitantes <- function(url = "https://www.datos.gov.co/resource/jmky-uei2.csv") {
   
   #Evitar notación cientifica 

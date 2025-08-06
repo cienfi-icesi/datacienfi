@@ -1,7 +1,8 @@
-#' @title Descargar datos del Registro único de vendedores en Cartagena 
+#' 
 #' @description Descarga datos desde datos.gov.co. Estándariza los nombres de columna
 #' @param url URL del archivo CSV o recurso que se desea descargar 
 #' @return Tibble con observaciones por vendedor registrado 
+#' @keywords internal
 download_vendedores <- function(url = "https://www.datos.gov.co/resource/y8mp-h84j.csv?$limit=10000"){
   
   #Evitar notación cientifica 

@@ -1,7 +1,8 @@
-#' @title Descargar hasta 50.000 observaciones de Saber 11 del año 2022
+#' 
 #' @description Descarga datos desde datos.gov.co, agrupa por institución educativa, calcula promedios por módulo y cuenta estudiantes.
 #' @param url URL del archivo CSV o recurso que se desea descargar 
 #' @return Tibble con observaciones agregadas por institución educativa
+#' @keywords internal
 
 '%>%' <- dplyr::"%>%"
 

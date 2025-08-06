@@ -1,8 +1,9 @@
-#' @title Descargar hasta 50.000 observaciones de Saber Pro 2022-1
+#'
 #' @description
 #' Descarga datos desde datos.gov.co
 #' @param url URL del archivo CSV o recurso que se desea descargar 
 #' @return Tibble con observaciones por individuo 
+#' @keywords internal
 download_universidades <- function(url = "https://www.datos.gov.co/resource/u37r-hjmu.csv?periodo=20222&$limit=50000") {
   
   #Evitar notación cientifica 
