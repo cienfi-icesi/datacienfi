@@ -3,7 +3,6 @@
 export(get_empresas)
 export(get_finanzas)
 export(get_habitantes)
-export(get_laboral)
 export(get_notas)
 export(get_turismo)
 export(get_universidades)

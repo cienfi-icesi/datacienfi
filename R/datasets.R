@@ -112,24 +112,6 @@ get_habitantes <- function(){
   return(datos)
 }
 
-#' @title Obtener datos de Mercado laboral en Bogota
-#' @description Llama a la funcion de descarga y agrega metadatos 
-#' @return Data frame con los datos por periodo 
-#' @export
-get_laboral <- function(){
-  message("Ejecutando funcion get_laboral()...")
-  datos <- download_laboral()
-  
-  message("Fuente: Ministerio de Tecnologias de la Informacion y las Comunicaciones (datos abiertos)")
-  message("Por favor cite el paquete asi:")
-  message("Martinez-Gonzalez, E., Granado-Mandinga, C., Torres-Montoya, M., Cano-Noguera, A.,")
-  message("Escobar-Arteaga, J., Gil-Marin, K., & Dow-Valenzuela, S. (2024). datacienfi:")
-  message("Paquete de bases de datos publicas para analisis economico y financiero.")
-  message("CIENFI, Universidad Icesi.")
-  
-  return(datos)
-}
-
 #' @title Obtener datos de Vendedores registrados en Cartagena
 #' @description Llama a la funcion de descarga y agrega metadatos 
 #' @return Data frame con los datos de los vendedores registrados 
